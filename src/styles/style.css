@@ -1,13 +1,13 @@
 :root {
-    --background-color: #2D2D2D;
-    --primary-text: #1A1A1A;
+    --background-color: #1A1A1A;
 }
 
 body {
-    background-color: var(--background-color);
+    background-image: url("../images/mobile-background.jpg");
 }
 
-header img {
+#header-logo {
     display: block;
-    margin: 0 auto;
+    margin: 200px auto;
+    width: 200px;
 }

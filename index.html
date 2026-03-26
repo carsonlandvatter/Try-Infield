@@ -3,9 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Login</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+  <script defer src="src/main.js"></script>
 </head>
 <body>
-  
+    <header>
+        <img src="/logo.png" id="header-logo" alt="Main infield logo">
+    </header>
+    <main>
+      <form id="login">
+        <h2>Sign in to your account</h2>
+        <input id="login-email" placeholder="Email" type="email" class="login-input">
+        <input id="login-password" placeholder="Password" type="password" class="login-input">
+        <button id="signin">Sign In</button>
+      </form>
+    </main>
 </body>
 </html>

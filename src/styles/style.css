@@ -1,7 +1,12 @@
 
 
 body {
- background-color: white;
+    margin: 0;
+    padding: 0;background-color: white;
+}
+
+.desktop-only {
+    display: none;
 }
 
 #header-logo {
@@ -44,4 +49,5 @@ body {
 #signin {
     margin-bottom: 30px;
     border: 1px solid black;
+    color: black;
 }

@@ -30,7 +30,7 @@ body {
     border: 1px solid rgb(225, 225, 225);
     border-radius: 20px;
     margin: 20px;
-    background-color: rgb(238, 235, 229);
+    background-color: rgb(243, 240, 236);
     opacity: 0;
     animation: fadeIn 1s ease-in 1s forwards;
 }

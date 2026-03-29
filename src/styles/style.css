@@ -1,8 +1,15 @@
 
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 body {
+    font-family: "Noto Sans Gothic", sans-serif;
     margin: 0;
-    padding: 0;background-color: white;
+    padding: 0;
+    background-color: owhite;
 }
 
 .desktop-only {
@@ -14,16 +21,22 @@ body {
     margin: 200px auto;
     margin-bottom: 100px;
     width: 200px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
 }
 
 /*********LOGIN*********/
 #login {
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 20px;
     margin: 20px;
+    background-color: rgb(238, 235, 229);
+    opacity: 0;
+    animation: fadeIn 1s ease-in 1s forwards;
 }
 
 #login h2 {
+    color: rgb(63, 63, 63);
     text-align: center;
     font-size: 16px;
     margin-top: 30px;
@@ -37,7 +50,7 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(228, 228, 228);
     font-size: 16px;
 }
 
@@ -47,7 +60,9 @@ body {
 }
 
 #signin {
+    border-radius: 20px;
     margin-bottom: 30px;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid rgb(44, 44, 44);
+    color: white;
+    background-color: rgb(63, 63, 63);
 }

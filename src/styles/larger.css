@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+
+    .desktop-only {
+        display: block;
+    }
+/********HEADER********/
+
+    #about-paragraph {
+        margin-top: 50px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    #header-logo {
+        margin: 200px 0 0;
+    }
+
+    header {
+        margin: 0 auto;
+        display: block;
+        padding-left: 50px;
+        max-width: 400px;
+    }
+
+    .login-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+/*********LOGIN-FORM********/
+
+    #login {
+        margin: 200px auto;
+        padding: 30px;
+        max-width: 400px;
+    }
+
+    #login h2 {
+        font-size: 30px;
+    }
+
+    .login-page main {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
